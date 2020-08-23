@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test1
+  description: t1
+  annotations:
+    github.com/project-slug: alleycat-at-git/test1
+    backstage.io/github-actions-id: alleycat-at-git/test1
+spec:
+  type: service
+  lifecycle: experimental
+  owner: alleycat-at-git
